@@ -1,5 +1,3 @@
-# HAND GESTURE MOUSE CONTROLLER
-
 import cv2
 import mediapipe as mp
 from pynput.mouse import Button, Controller as MouseController
