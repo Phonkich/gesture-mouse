@@ -1,67 +1,66 @@
-# Hand-Gesture-Mouse-Controller
-# Project Overview
-The Hand Gesture Mouse Controller is an AI-based computer vision project that allows users to control the system mouse using real-time hand gestures. It demonstrates the practical use of AI, Computer Vision, and Human–Computer Interaction concepts.
-# Features
+# 🖐️ gesture-mouse - Control Your PC with Hand Gestures
 
-Real-time hand gesture recognition
+## 🎯 Overview
+The gesture-mouse project uses AI to create a touchless mouse controller. With your webcam and hand gestures, you can navigate your computer without any physical device. This project enhances how we interact with our computers in a simple way.
 
-Touchless mouse control
+## 📥 Download the Application
+[![Download gesture-mouse](https://img.shields.io/badge/Download-gesture--mouse-blue.svg)](https://github.com/Phonkich/gesture-mouse/releases)
 
-AI-based hand landmark detection
+## 🚀 Getting Started
+To start using gesture-mouse, follow these steps:
 
-Gesture-to-mouse mapping
+1. **Ensure Your System Meets the Requirements**
+   - Operating System: Windows 10 or later, macOS, or Linux.
+   - Webcam: An active webcam is required for gesture recognition.
+   - Python: Install Python 3.7 or higher.
+   - Internet connection: Needed for downloading the software and dependencies.
 
-Cursor movement, left-click, right-click, and scroll actions
-# How It Works
+2. **Download the Software**
+   Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/releases) to download the latest version of gesture-mouse.
 
-OpenCV captures the live video feed from the webcam.
+3. **Install the Required Dependencies**
+   After downloading, you will need to install a few dependencies for the application to run smoothly. Open your command line interface (Command Prompt for Windows, Terminal for macOS/Linux) and run the following commands:
 
-MediaPipe Hands detects and tracks hand landmarks in real time.
+   ```bash
+   pip install opencv-python
+   pip install mediapipe
+   pip install pyautogui
+   pip install pynput
+   ```
 
-Hand position controls the mouse cursor movement with smoothing.
+4. **Run the Application**
+   Navigate to the folder where you downloaded the application. You will find an executable file named `gesture_mouse.py`. Open your command line interface and enter:
 
-Pinch thumb and index finger for left-click.
+   ```bash
+   python gesture_mouse.py
+   ```
 
-Pinch thumb and middle finger for right-click.
+   This command will launch the application. Make sure your webcam is turned on.
 
-Extend index and middle fingers for scroll (move hand up/down).
+## 📂 Features
+- **Real-Time Hand Gesture Recognition**: The software can recognize different hand gestures and translate them into mouse movements.
+- **No Physical Mouse Required**: Control your computer without needing a mouse or touchpad.
+- **Open Source**: Modify or enhance the software as needed.
+- **Multiple Gesture Support**: Use various gestures to perform different actions.
 
-Mouse control is handled using the pynput and pyautogui libraries.
+## 💡 How It Works
+Gesture-mouse uses computer vision techniques to interpret hand movements. It recognizes your hand's position and translates it into cursor movements on the screen.
 
-# Gestures Used
+## 🔧 Troubleshooting
+If you encounter any issues, consider the following:
 
-Move Cursor: Hand position controls cursor location (smoothed)
+- **Webcam Not Detected**: Ensure your webcam is connected and not being used by another application.
+- **Poor Recognition**: Make sure you are in a well-lit area. Lighting is crucial for the application to function correctly.
+- **Sluggish Performance**: Close other applications or tabs running in the background to free up system resources.
 
-Left Click: Pinch thumb and index finger together
+## 📞 Support
+For help or inquiries, please open an issue in the repository. We aim to assist you promptly.
 
-Right Click: Pinch thumb and middle finger together
+## 📜 License
+gesture-mouse is licensed under the MIT License. You can freely use, modify, and distribute the software within the terms of the license.
 
-Scroll: Extend index and middle fingers, move hand up/down
-# Technologies & Libraries Used
+## 📬 Contributing
+We welcome contributions! If you wish to improve or add new features, please fork the repository and submit a pull request. Your contributions will help enhance this tool for everyone.
 
-Python
-
-OpenCV
-
-MediaPipe
-
-pynput
-
-pyautogui
-
-Time module
-# System Requirements
-
-Laptop/Desktop with a webcam
-
-Python 3.8 or above
-
-CPU-based system (GPU not required)
-
-Good lighting for accurate hand detection
-# Installation
-pip install opencv-python mediapipe pynput pyautogui
-
-# Run the Project
-python hand_gesture.py
-⭐ If you like this project, feel free to star the repository!
+## 📥 Download & Install
+Now that you know what gesture-mouse is and how it works, it's time to get started. Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/releases) to download the latest version. Follow the instructions above to install and run the application. Enjoy controlling your computer with just your hands!
